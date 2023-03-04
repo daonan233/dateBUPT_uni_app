@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/personal/personal",
+    "pages/homepages/search",
+    "pages/login_1/login",
+    "pages/homedpage_2/search_2",
+    "pages/runleg/runleg",
+    "pages/playball/playball",
+    "pages/teamwork/teamwork",
+    "pages/love/love",
+    "pages/learning/learning",
+    "pages/playgames/playgames",
+    "pages/trade/trade",
+    "pages/wantnew/wantnew",
+    "pages/getjob/getjob",
+    "pages/ass"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#1E90FF",
+    "list": [
+      {
+        "pagePath": "pages/homedpage_2/search_2",
+        "text": "首页",
+        "iconPath": "./pages/img/homepage.png",
+        "selectedIconPath": "./pages/img/homepage_2.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "./pages/img/personal.png",
+        "selectedIconPath": "./pages/img/personal_2.png"
+      }
+    ]
+  }
+}

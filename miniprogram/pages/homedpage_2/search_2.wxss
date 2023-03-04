@@ -1,0 +1,60 @@
+
+.title {
+  font-size: 45rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15rpx;
+  margin-bottom: -5px;
+}
+
+.action {
+  width: 20%;
+  height: 10px;
+}
+
+.view {
+  padding-top: 20rpx;
+  padding-bottom: 0rpx;
+}
+
+.header_view_hide {
+  display: none;
+}
+
+.header_view_show {
+  display: block;
+}
+#btn{
+  height: 45px;
+  width: 80px ;
+  color: white;
+  font-size: 15px ;
+  text-align: right;
+  background-color: rgb(102, 191, 218) ;
+}
+
+.tui-table-view{
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.tui-col-3{
+ flex: 0 0 auto;
+  width: 33.33333333%;
+  text-align: center;
+  color: #797979;
+  padding: 40rpx 0;
+  font-size: 30rpx;
+}
+
+.icontype{
+  height:40px;
+  width:40px;
+}
+
+.backgroundColor{
+  background-color:  blanchedalmond;
+}

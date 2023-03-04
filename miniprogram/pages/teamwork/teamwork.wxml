@@ -1,0 +1,53 @@
+<!-- index.wxml代码如下 -->
+<view>
+<view class="titleText">
+<text>项目 合作</text>
+</view>
+
+  <swiper interval="5500" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item>
+      <image mode="widthFix" src="../img/1.png"></image>
+    </swiper-item>
+    <swiper-item class="cri"> 
+      <image mode="widthFix" src="../img/2.png"></image>
+    </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="../img/3.png"></image>
+      </swiper-item>
+  </swiper>
+</view>
+
+<view class="bigBox">
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >美赛 代码部分 缺一人</text>
+  </view><view class="blockfont_2"><text>现有2人 信通院大二20% </text></view></view>
+ 
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >ICPC（亚洲区）组队 缺一人</text>
+  </view><view class="blockfont_2"><text>现有2人 计算机院大二 icpc银牌</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >55杯 摆烂大赛 缺5人</text>
+  </view><view class="blockfont_2"><text>现有摆烂大王55一人，55魅力时刻</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >美赛 代码部分 缺一人</text>
+  </view><view class="blockfont_2"><text>现有2人 信通院大二20% </text></view></view>
+ 
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >ICPC（亚洲区）组队 缺一人</text>
+  </view><view class="blockfont_2"><text>现有2人 计算机院大二 icpc银牌</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >55杯 摆烂大赛 缺5人</text>
+  </view><view class="blockfont_2"><text>现有摆烂大王55一人，55魅力时刻</text></view></view>
+  
+</view>
+
+

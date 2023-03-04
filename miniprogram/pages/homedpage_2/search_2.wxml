@@ -1,0 +1,114 @@
+<scroll-view scroll-y class="scrollPage">
+  <!--小程序背景图片-->
+  <image src='../img/title.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+
+  <view class="padding radius text-center light bg-white view">
+    <!--使用colorUI组件设计搜索框-->
+    <view class="box">
+      <view class="cu-bar bg-white search">
+        <!--form表单组件-->
+        <view class="search-form radius">
+          <text class="cuIcon-search"></text>
+          <!--绑定监听搜索框信息-->
+          <input type="text" placeholder="今天想拼什么？" confirm-type="search" bindinput="searchInput" style="text-align: left;"></input>
+        </view>
+        <view class="action">
+          <!--设置绑定弹窗搜索按钮-->
+          <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="Modal" >搜索</button>
+        </view>
+      </view>
+    </view>
+   
+    <!--model弹窗组件--普通窗口-->
+
+    <view class="cu-modal {{modalName=='Modal'?'show':''}}">
+      <view class="cu-dialog">
+        <view class="cu-bar bg-grey justify-end">
+          <view class='content'>{{keyWord1}}</view>
+          <!--弹窗标题-->
+         <view class='action' bindtap="hideModal">
+            <text class="cuIcon-close text-red"></text>
+            <!--设置关闭按钮-->
+         </view>
+        </view>
+        <view class="padding-xl">
+          {{description1}}
+          <!--弹窗内容-->
+       </view>
+
+        <view wx:if="{{cond}}">
+          <!--校验：如果出现两个相似值-->
+         <view class="cu-bar bg-grey justify-end">
+            <view class='content'>{{keyWord2}}</view>
+            <!--弹窗标题-->
+         </view>
+          <view class="padding-xl">
+            {{description2}}
+            <!--弹窗内容-->
+         </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+  <view class="tui-table-view">
+    <view class="tui-col-3"><navigator url="../runleg/runleg">
+      <icon><image src="../img/paotuiAPP.png" class="icontype"></image></icon>
+      <view>代取跑腿</view>
+      </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../playball/playball">
+      <icon><image src="../img/lanqiu.png" class="icontype"></image></icon>
+      <view>相约球场</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../teamwork/teamwork">
+      <icon><image src="../img/hezuoguanxi.png" class="icontype"></image></icon>
+      <view>项目合作</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../wantnew/wantnew">
+      <icon><image src="../img/shetuan.png" class="icontype"></image></icon>
+      <view>社团招新</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../love/love">
+      <icon><image src="../img/zhenghunjiaoyou.png" class="icontype"></image></icon>
+      <view>恋爱交友</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../getjob/getjob">
+      <icon><image src="../img/zhaopin.png" class="icontype"></image></icon>
+      <view>招聘内推</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../trade/trade">
+      <icon><image src="../img/jiaoyi.png" class="icontype"></image></icon>
+      <view>二手交易</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../learning/learning">
+      <icon><image src="../img/xuexi.png" class="icontype"></image></icon>
+      <view>学习交流</view>
+    </navigator>
+    </view>
+    <view class="tui-col-3">
+      <navigator url="../playgames/playgames">
+      <icon><image src="../img/youxi.png" class="icontype"></image></icon>
+      <view>游戏开黑</view>
+    </navigator>
+    </view>
+  </view>
+</view>
+
+
+</scroll-view>
+

@@ -1,0 +1,27 @@
+.avatar{
+  width: 100vw;
+  height: 300rpx;
+  background-color: rgb(55, 193, 211);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-bottom: 30rpx;
+}
+
+.info .section{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30rpx;
+  border-bottom: 1px solid #ddd;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 16px;
+}

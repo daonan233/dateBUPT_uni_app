@@ -1,0 +1,17 @@
+<!--pages/login/index.wxml-->
+<view class ="titleView"><!--<image src="../img/swing1.jpg"style="width:40px;height:40px"></image>-->与你 邮约</view>
+<image src="../img/paperplane.png"  style =" justify-content: center ;align-items: center;"class="mainImage"></image>
+
+<button class='phone-text'   open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" style="font-size: large;">点我登录</button>
+<!--登录弹窗-->
+<view class="modal-mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <view class="modal-dialog" wx:if="{{showModal}}">
+    <view class="modal-content">
+    <view><image src='../img/BUPT.png' class='innerImage'></image></view>
+    <view>绑定手机号</view>
+    <view>请先绑定手机号在进行此操作</view>  
+    <button open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">
+      <image src='../img/wxIcon.png' class='iconWx'></image>微信用户一键绑定
+    </button>
+  </view>
+</view>

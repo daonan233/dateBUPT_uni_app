@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="avatar">
+    <!-- getUserInfo 
+    open-type设置这个属性，表示该按钮点击后是用来获取用户信息的
+    bindgetuserinfo 表示点击后相应的方法
+   
+    而我们显示用户信息肯定是要在用户给予权限之后才进行显示，所以要加这个if判断-->
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">微 信 登 录</button>
+
+    <block wx:else>
+      <image src="{{userInfo.avatarUrl}}"></image>
+      <text class="name">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="info">
+      <!--view class="section">
+        <text>城市：</text>
+        <text>{{userInfo.city}}</text>
+      </view-->
+      <view class="section" >
+        <text>性别：</text>
+        <text>{{userInfo.gender===0?"男":"女"}}</text>
+      </view>
+    </view>
+
+    <view class="info" >
+     <view class="section" style="margin-top:55px;"><navigator href="#">  <text style ="text-align: left">我 的 预 约</text></navigator>
+    </view>
+    </view>
+
+    <view class="info" >
+     <view class="section"><navigator href="#">  <text style ="text-align: left">金 币 充 值</text></navigator>
+    </view>
+    </view>
+
+    <view class="info" >
+     <view class="section"><navigator href="#">  <text style ="text-align: left">偏好设置</text></navigator>
+    </view>
+    </view>
+     
+</view>

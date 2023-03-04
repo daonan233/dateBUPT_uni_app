@@ -1,0 +1,53 @@
+<!-- index.wxml代码如下 -->
+<view>
+<view class="titleText">
+<text>相约 球场</text>
+</view>
+
+  <swiper interval="5500" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item>
+      <image mode="widthFix" src="../img/1.png"></image>
+    </swiper-item>
+    <swiper-item class="cri"> 
+      <image mode="widthFix" src="../img/2.png"></image>
+    </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="../img/3.png"></image>
+      </swiper-item>
+  </swiper>
+</view>
+
+<view class="bigBox">
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >羽毛球 2v2 缺1人</text>
+  </view><view class="blockfont_2"><text>新手 14：00-15：00</text></view></view>
+ 
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >篮球场2 5v5 缺2人</text>
+  </view><view class="blockfont_2"><text>练习两年半 17：00-19：00</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >羽毛球 2v2 缺1人</text>
+  </view><view class="blockfont_2"><text>新手 14：00-15：00</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >篮球场2 5v5 缺2人</text>
+  </view><view class="blockfont_2"><text>练习两年半 17：00-19：00</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >羽毛球 2v2 缺1人</text>
+  </view><view class="blockfont_2"><text>新手 14：00-15：00</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >篮球场2 5v5 缺2人</text>
+  </view><view class="blockfont_2"><text>练习两年半 17：00-19：00</text></view></view>
+  
+</view>
+
+

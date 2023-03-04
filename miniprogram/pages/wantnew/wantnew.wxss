@@ -1,0 +1,52 @@
+swiper {
+  width: 100%;
+  height: calc(100vw * 327 /650);
+}
+image {
+  width: 100%;
+}
+.titleText{
+  font-size: 30px;
+  text-align:center;
+  font-family: 幼圆;
+  font-weight: 1000;
+  color:rgb(53, 109, 184);
+}
+
+.icontype{
+  height:40px;
+  width:40px;
+  text-align: left;
+  margin-top:10px ;
+}
+
+.bigBox{
+  margin: 10rpx;
+}
+
+.smallBox{
+  background-color: rgb(153, 231, 245);
+  margin: 30rpx;
+  width: 93%;
+  height: 150rpx;
+  /* view默认是block */
+  display: block;
+  border-radius: 7px;
+}
+.blockfont_1{
+  margin-top:10px;
+  margin-left:20px;
+  font-size: 150%;
+  font-weight: bolder;
+  color:black;
+}
+
+.blockfont_2{
+  margin-top:20px;
+  margin-left:20px;
+  font-size: 80%;
+  font-weight: bold;
+  color:slategray;
+}
+
+

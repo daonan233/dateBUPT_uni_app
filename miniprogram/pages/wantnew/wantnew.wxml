@@ -1,0 +1,53 @@
+<!-- index.wxml代码如下 -->
+<view>
+<view class="titleText">
+<text>社团 招新</text>
+</view>
+
+  <swiper interval="5500" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item>
+      <image mode="widthFix" src="../img/1.png"></image>
+    </swiper-item>
+    <swiper-item class="cri"> 
+      <image mode="widthFix" src="../img/2.png"></image>
+    </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="../img/3.png"></image>
+      </swiper-item>
+  </swiper>
+</view>
+
+<view class="bigBox">
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >古风社 诚招古装小姐姐小哥哥</text>
+  </view><view class="blockfont_2"><text>社长女装，诚邀同学加入，群123456789</text></view></view>
+ 
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >数码社 中心组换届招人</text>
+  </view><view class="blockfont_2"><text>加Q1234567参加面试</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >红星书社 诚招社员</text>
+  </view><view class="blockfont_2"><text>欢迎加入红星书社群4561230</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >动漫社招新 诚招舞见</text>
+  </view><view class="blockfont_2"><text>有意向的同学请将参选视频发到邮箱123456@example.com</text></view></view>
+ 
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >国旗护卫队 换届招新</text>
+  </view><view class="blockfont_2"><text>有意向的同学在 22日15时 在操场参加面试</text></view></view>
+
+  <view class="smallBox">
+  <view class="blockfont_1">
+  <text >周行算协 中心组换届</text>
+  </view><view class="blockfont_2"><text>大佬</text></view></view>
+  
+</view>
+
+
